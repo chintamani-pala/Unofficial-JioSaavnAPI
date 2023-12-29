@@ -12,7 +12,8 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return jsonify({"error":"No endpoint available"})
+    return jsonify({"error":"No endpoint available",
+                   "credit":"chintamani pala"})
 
 
 @app.route('/song/')
